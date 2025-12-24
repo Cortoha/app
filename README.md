@@ -23,7 +23,6 @@ pip install -U torch torchvision numpy opencv-python pillow matplotlib transform
 
 **Как работает идентификация?**
 
-A:
 1. Извлекаем embedding изображения запроса (256-D вектор)
 2. Вычисляем cosine similarity со всеми embeddings'ами в базе
 3. Берем Top-100 индексов с наибольшей similarity
